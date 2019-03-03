@@ -1,0 +1,44 @@
+[2019-03-02T14:44:22.194] [INFO] log_file - 发报格式错,报文发送失败
+[2019-03-02T15:07:21.356] [INFO] default - 发报格式错,报文发送失败
+[2019-03-02T15:27:59.471] [INFO] default - app startend: Listening on 0.0.0.0:3300
+[2019-03-02T15:31:25.325] [INFO] default - app startend: Listening on 172.16.0.8:3300
+[2019-03-02T15:38:38.940] [INFO] default - 路由加载完成>>>
+[2019-03-02T15:38:39.237] [INFO] default - app startend: Listening on 172.16.0.8:3300
+[2019-03-02T15:40:29.971] [INFO] default - 路由加载完成>>>
+[2019-03-02T15:40:30.268] [INFO] default - app startend: Listening on 172.16.0.8:3300
+[2019-03-02T21:44:18.601] [ERROR] default - 捕获全局错误:  C:\Users\Administrator\Desktop\xmNodejs\game-project\modules\webApi\router\User.js:4
+export default class User {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at new require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Administrator\Desktop\xmNodejs\game-project\modules\index.js:14:14)
+[2019-03-02T21:45:06.736] [ERROR] default - 捕获全局错误:  C:\Users\Administrator\Desktop\xmNodejs\game-project\modules\webApi\router\User.js:10
+  test = {
+       ^
+
+SyntaxError: Unexpected token =
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at new require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Administrator\Desktop\xmNodejs\game-project\modules\index.js:14:14)
+[2019-03-02T21:45:46.303] [INFO] default - 路由加载完成>>>
+[2019-03-02T21:45:47.585] [INFO] default - app startend: Listening on 172.16.0.8:3300
+[2019-03-02T21:46:12.946] [INFO] default - 路由加载完成>>>
+[2019-03-02T21:46:13.181] [INFO] default - app startend: Listening on 172.16.0.8:3300
+[2019-03-02T21:49:23.190] [INFO] default - 路由加载完成>>>
+[2019-03-02T21:49:23.451] [INFO] default - app startend: Listening on 172.16.0.8:3300

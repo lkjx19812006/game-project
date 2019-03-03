@@ -1,0 +1,39 @@
+[2019-03-03T12:28:54.505] [ERROR] default - 捕获全局错误:  TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\xmNodejs\game-project\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (D:\xmNodejs\game-project\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\xmNodejs\game-project\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (D:\xmNodejs\game-project\modules\index.js:10:5)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+[2019-03-03T12:38:31.717] [ERROR] default - 捕获全局错误:  TypeError: Cannot read property 'Router' of undefined
+    at Object.<anonymous> (D:\xmNodejs\game-project\modules\webApi\user.js:4:32)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\xmNodejs\game-project\modules\index.js:14:14)
+    at Module._compile (module.js:652:30)
+[2019-03-03T12:41:10.830] [INFO] default - 路由加载完成>>>
+[2019-03-03T12:41:11.153] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T12:57:41.244] [ERROR] default - 捕获全局错误:  TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\xmNodejs\game-project\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (D:\xmNodejs\game-project\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (D:\xmNodejs\game-project\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (D:\xmNodejs\game-project\modules\index.js:15:5)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+[2019-03-03T13:40:47.495] [INFO] default - 路由加载完成>>>
+[2019-03-03T13:40:47.763] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T13:42:20.030] [INFO] default - 路由加载完成>>>
+[2019-03-03T13:42:20.291] [INFO] default - app startend: Listening on 192.168.1.102:3300
