@@ -1,6 +1,5 @@
 const express = require("express");
 const { logger } = require('../common/log');
-
 let app = express();
 
 process.on('uncaughtException', (err) => {
@@ -15,12 +14,7 @@ webApi.forEach(item => {
   app.use(item.path, item.handle);
 });
 
-
-
-
-
-
-
+// socket 方法放在app.js 中了
 
 
 // 网页目录

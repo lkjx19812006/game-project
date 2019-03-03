@@ -35,4 +35,17 @@ server.on('listening', () => {
   logger.info('app startend: Listening on %s:%s', addr.address, addr.port);
 })
 
+var io = require('socket.io')(server);
+
+//所有socket方法
+const HallLogic = require('./modules/socketApi/HallLogic')['default'];
+// console.log(HallLogic)
+
+io.on('connection', (socket) => {
+  new HallLogic(socket); //大厅服务
+})
+
+
+
+
 server.listen(port, host);

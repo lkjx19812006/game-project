@@ -37,3 +37,85 @@
 [2019-03-03T13:40:47.763] [INFO] default - app startend: Listening on 192.168.1.102:3300
 [2019-03-03T13:42:20.030] [INFO] default - 路由加载完成>>>
 [2019-03-03T13:42:20.291] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T13:48:02.442] [INFO] default - 路由加载完成>>>
+[2019-03-03T13:48:02.704] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:31:54.973] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:31:55.336] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:32:20.105] [ERROR] default - 捕获全局错误:  TypeError: HallLogic is not a constructor
+    at Namespace.io.on (D:\xmNodejs\game-project\app.js:43:3)
+    at emitOne (events.js:116:13)
+    at Namespace.emit (events.js:211:7)
+    at Namespace.emit (D:\xmNodejs\game-project\node_modules\socket.io\lib\namespace.js:213:10)
+    at D:\xmNodejs\game-project\node_modules\socket.io\lib\namespace.js:181:14
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[2019-03-03T14:33:14.724] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:33:15.044] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:33:16.836] [ERROR] default - 捕获全局错误:  TypeError: HallLogic is not a constructor
+    at Namespace.io.on (D:\xmNodejs\game-project\app.js:43:3)
+    at emitOne (events.js:116:13)
+    at Namespace.emit (events.js:211:7)
+    at Namespace.emit (D:\xmNodejs\game-project\node_modules\socket.io\lib\namespace.js:213:10)
+    at D:\xmNodejs\game-project\node_modules\socket.io\lib\namespace.js:181:14
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[2019-03-03T14:34:44.957] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:34:45.274] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:35:07.376] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:35:07.696] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:36:41.892] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:36:42.287] [ERROR] default - 3300 is already in use
+[2019-03-03T14:37:19.516] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:37:19.955] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:39:35.975] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:39:36.363] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:43:10.889] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:43:11.375] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T14:44:05.128] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:44:05.524] [ERROR] default - 捕获全局错误:  TypeError: Cannot read property 'socket' of undefined
+    at d:\xmNodejs\game-project\modules\decorator.js:36:55
+    at __decorate (d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:5:110)
+    at d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:19:5
+    at Object.<anonymous> (d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:23:2)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+[2019-03-03T14:44:39.175] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:44:39.550] [ERROR] default - 捕获全局错误:  TypeError: Cannot read property 'socket' of undefined
+    at d:\xmNodejs\game-project\modules\decorator.js:36:55
+    at __decorate (d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:5:110)
+    at d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:19:5
+    at Object.<anonymous> (d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:23:2)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+[2019-03-03T14:44:57.383] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:44:57.775] [ERROR] default - 捕获全局错误:  TypeError: Cannot read property 'addUser' of undefined
+    at d:\xmNodejs\game-project\modules\decorator.js:36:55
+    at __decorate (d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:5:110)
+    at d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:19:5
+    at Object.<anonymous> (d:\xmNodejs\game-project\modules\socketApi\HallLogic.js:23:2)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+[2019-03-03T14:50:53.276] [INFO] default - 路由加载完成>>>
+[2019-03-03T14:50:53.723] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T15:03:26.963] [INFO] default - 路由加载完成>>>
+[2019-03-03T15:03:27.363] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T15:05:06.386] [INFO] default - 路由加载完成>>>
+[2019-03-03T15:05:06.757] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T15:16:38.586] [INFO] default - 路由加载完成>>>
+[2019-03-03T15:16:38.966] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T15:17:29.224] [INFO] default - 路由加载完成>>>
+[2019-03-03T15:17:29.602] [INFO] default - app startend: Listening on 192.168.1.102:3300
+[2019-03-03T15:19:02.348] [INFO] default - 路由加载完成>>>
+[2019-03-03T15:19:02.791] [INFO] default - app startend: Listening on 192.168.1.102:3300
